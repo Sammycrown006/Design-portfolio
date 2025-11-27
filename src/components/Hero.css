@@ -1,0 +1,66 @@
+.hero {
+    display: flex;
+    align-items: start;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-top: 10vh;
+    background-image: url(/Resume-two-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    margin: 0px 1rem;
+    padding: 3rem;
+}
+.first-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+}
+.last-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+}
+.names p {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+}
+.btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0px;
+}
+.btns button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 0.5rem 3rem;
+    transition: all 0.3s ease-out;
+}
+.btns button:hover {
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.9);
+}
+@media (max-width: 960px) {
+    .hero {
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-container {
+        text-align: center;
+        margin: 0px;
+    }
+}

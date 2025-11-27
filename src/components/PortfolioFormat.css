@@ -1,0 +1,38 @@
+.port {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(6, 0, 35, 0.89);
+    color: white;
+    border: 1px solid rgb(250, 250, 253);
+    border-radius: 2px;
+    padding: 1rem;
+    transition: all 0.5s;
+}
+.port:hover {
+    scale: 1.05;
+    border: 2px solid rgb(245, 245, 246);
+}
+.port:hover img {
+    border: 2px dashed rgb(20, 20, 246);
+}
+.img-part {
+    width: 100%;
+    height: 90%;
+    padding-bottom: 1rem;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    border: 2px dashed white;
+}
+img:hover {
+    border: 2px dashed rgb(20, 20, 246);
+}
+.text-part {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

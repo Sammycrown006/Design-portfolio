@@ -1,0 +1,75 @@
+.resume {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    padding-inline: 1.5rem;
+    height: 100vh;
+}
+.heading {
+    margin: 1rem;
+    text-align: center;
+}
+.heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.heading p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 80%;
+}
+.res {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.resume-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 700;
+    font-size: 2rem;
+    text-decoration: underline rgb(20, 20, 246) 3px;
+}
+.resume-container h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.icon {
+    padding: 0.5rem;
+    border: 5px solid rgb(20, 20, 246);
+    border-radius: 10px;
+}
+@media (max-width: 960px) {
+    .resume {
+        height: 100%;
+    }
+    .resume-container {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .res {
+        padding: 3rem 0px;
+        border-bottom: 2px solid rgb(20, 20, 246);
+    }
+    .res div {
+        text-align: left;
+    }
+    .resume-container h1 {
+        text-align: center;
+    }
+    .icon {
+        display: block;
+        margin: auto;
+    }
+}
